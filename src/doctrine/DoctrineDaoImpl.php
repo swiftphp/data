@@ -1,13 +1,13 @@
 <?php
-namespace swiftphp\doctrine;
+namespace swiftphp\data\doctrine;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
 use swiftphp\logger\ILogger;
-use swiftphp\orm\IDao;
-use swiftphp\orm\IMapping;
+use swiftphp\data\IDao;
+use swiftphp\data\IMapping;
 
 /**
  * 基于Doctrine框架的DAO实现

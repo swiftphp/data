@@ -10,11 +10,10 @@
 		}
 	],
 	"require" : {
-		"php" : ">=5.6.0",
+		"php" : ">=7.1.0",
 		"swiftphp/logger" : "~1.0",
 		"swiftphp/system" : "~1.0",
-		"swiftphp/config" : "~1.0",
-		"swiftphp/cache" : "~1.0"
+		"doctrine/orm" : "~2.6"
 	},
 	"autoload" : {
 		"psr-4" : {

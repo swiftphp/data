@@ -1,5 +1,5 @@
 <?php
-namespace swiftphp\doctrine;
+namespace swiftphp\data\doctrine;
 
 use Doctrine\DBAL\Logging\SQLLogger;
 use swiftphp\system\Console;

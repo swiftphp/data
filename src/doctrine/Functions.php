@@ -1,5 +1,5 @@
 <?php
-namespace swiftphp\doctrine;
+namespace swiftphp\data\doctrine;
 
 /**
  * 函数索引

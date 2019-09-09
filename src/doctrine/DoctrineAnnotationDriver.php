@@ -1,5 +1,5 @@
 <?php
-namespace swiftphp\doctrine;
+namespace swiftphp\data\doctrine;
 
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
 use Doctrine\Common\Annotations\AnnotationRegistry;

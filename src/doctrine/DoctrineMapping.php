@@ -1,8 +1,8 @@
 <?php
-namespace swiftphp\doctrine;
+namespace swiftphp\data\doctrine;
 
 use Doctrine\ORM\EntityManager;
-use swiftphp\orm\IMapping;
+use swiftphp\data\IMapping;
 
 /**
  * 数据映射接口实现

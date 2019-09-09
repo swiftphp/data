@@ -1,5 +1,5 @@
 <?php
-namespace swiftphp\orm;
+namespace swiftphp\data;
 
 /**
  * DAO接口

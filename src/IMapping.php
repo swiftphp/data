@@ -1,5 +1,5 @@
 <?php
-namespace swiftphp\orm;
+namespace swiftphp\data;
 
 /**
  * 数据映射接口
