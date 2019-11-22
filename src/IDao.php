@@ -66,6 +66,20 @@ interface IDao
      * @return boolean
      */
     function persist($entity);
+    
+    /**
+     * 删除实体
+     * @param object $entity   实体对象
+     */
+    function delete($entity);
+    
+    /**
+     * 根据实体ID删除数据
+     * @param string $entityClass  实体类型名
+     * @param mixed $id             实体ID,复合ID以键值对数组形式传入
+     * @return object
+     */
+    function deleteById($entityClass,$id);
 
     /**
      * 批量更新数据
@@ -75,20 +89,6 @@ interface IDao
      * @param array $params             输入参数
      */
     function updates($entityClass,$fieldValues=[], $filter = null, array $params=null);
-
-    /**
-     * 删除实体
-     * @param object $entity   实体对象
-     */
-    function delete($entity);
-
-    /**
-     * 根据实体ID删除数据
-     * @param string $entityClass  实体类型名
-     * @param mixed $id             实体ID,复合ID以键值对数组形式传入
-     * @return object
-     */
-    function deleteById($entityClass,$id);
 
     /**
      * 批量删除数据
